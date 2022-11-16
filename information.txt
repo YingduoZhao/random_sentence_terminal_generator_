@@ -1,0 +1,11 @@
+Here is the information for the terminal project that I made:
+linked source name:              Chance - Random generator helper for JavaScript
+Linked source about:             Chance is a minimalist generator of random [1] strings, numbers, etc. to help reduce some monotony particularly while writing automated tests or anywhere else you need anything random.
+                                 Chance is open source software and is released under the developer and business-friendly MIT License
+                                 Chance is loaded on this site so you can just open the console on your browser and play!
+Linked item website:             https://chancejs.com/
+github rerepository adress:      https://github.com/chancejs/chancejs
+Terminal instalization code:     npm i chance
+Weekly downloads:                725,638
+stars:                           6.1k
+latest commit:                   last month
