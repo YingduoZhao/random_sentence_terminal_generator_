@@ -1,0 +1,21 @@
+#We don’t want to add the source code of other packages to our repositories. 
+#To avoid doing it, we use a file called .gitignore. 
+#gitignore lists names of files and folders that *should not* be tracked by git. 
+#the commit-out code for gitignore is #
+
+#大体的inport library source from node>express 的步骤为
+#1: 从官网上找到应该站在terminal的library指令代码并把其粘在terminal上
+#          在此的例子为 npm i txtgen
+#          note: 应该粘在非 npm run start 的terminal里，即guest terminal
+#2： 在index.js最上方复制粘贴该library对应的js代码指令，也就是所谓的“引用和调出代码”代码
+#          在此的例子为 import { sentence } from 'txtgen'
+#3： 在index.js 的这行代码中更改 app.get('/', (req, res) => {此括号内的内容})
+#          在此案例中应该修改为： 
+#               const randomSentence = sentence()
+#               res.send(randomSentence)
+#4 在host terminal 中运行 npm run start
+#5 打开浏览器复制粘贴http://127.0.0.1:3001/
+
+#notion start develope
+
+node_modules
